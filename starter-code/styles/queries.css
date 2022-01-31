@@ -1,0 +1,111 @@
+@media screen and (min-width: 768px) {
+  .heading h1 {
+    margin: 2rem auto;
+    max-width: 45%;
+  }
+
+  .heading__text {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button-wii {
+    max-width: 20%;
+    margin-left: 2rem;
+  }
+
+  .gallery {
+    justify-content: space-evenly;
+  }
+
+  .gallery__img {
+    border-radius: 15px;
+  }
+
+  .bfmu__header {
+    margin: 2.25rem auto;
+    max-width: 50%;
+  }
+
+  .bfmu__text {
+    margin: 2rem auto 5rem auto;
+    max-width: 75%;
+  }
+
+  .footer__img {
+    background: #0092ae url(../assets/tablet/image-footer.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .heading__view {
+    display: none;
+  }
+
+  .heading__desktopview {
+    display: block;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .heading__bg {
+    align-items: center;
+  }
+
+  .heading__bg > img:first-child {
+    right: 1rem;
+    position: relative;
+    max-height: 18rem;
+  }
+
+  .heading__bg > img:last-child {
+    left: 1rem;
+    position: relative;
+    max-height: 18rem;
+  }
+
+  .gallery__img {
+    min-width: 15rem;
+  }
+
+  .bfmu__header {
+    max-width: 33%;
+  }
+
+  .bfmu__text {
+    max-width: 50%;
+  }
+
+  .footer {
+    max-height: 300px;
+  }
+
+  .footer__heading {
+    max-width: 30%;
+    margin: 0 0 0 5rem;
+  }
+
+  .footer__text {
+    max-width: 35%;
+    margin-bottom: 0;
+  }
+
+  .footer__img {
+    display: flex;
+    max-height: inherit;
+    text-align: initial;
+    align-items: center;
+
+    background: #0092ae url(../assets/desktop/image-footer.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+}
+
+header,
+main {
+  padding: 1rem;
+}
+
+/* Header */
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  text-align: center;
+}
+
+.heading h1 {
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+
+.heading__text {
+  color: rgb(112, 112, 112);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.heading__logo {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.heading__bg {
+  margin: 2rem 0;
+  display: flex;
+}
+
+.heading__view {
+  visibility: visible;
+}
+
+.heading__desktopview {
+  display: none;
+}
+/* Buttons */
+
+.button-container {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  font: 1.25rem "Montserrat", sans-serif;
+  color: whitesmoke;
+  width: 15rem;
+  cursor: pointer;
+  height: 4.5rem;
+  border: none;
+  display: block;
+  padding: 1rem;
+  border-radius: 40px;
+  margin-bottom: 1rem;
+}
+
+.button-wii {
+  width: 50%;
+}
+
+.button-container > .button-dl {
+  background-color: #34b0b4;
+}
+
+.button-container > .button-wii {
+  background-color: #9258b6;
+}
+
+.dl {
+  color: #09e0e7;
+}
+
+.dl-2 {
+  color: #c4a1da;
+}
+
+/* Main Section */
+
+.main {
+  margin-top: 1rem;
+  padding-bottom: 0;
+}
+
+.ws1,
+.ws2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ws2 {
+  z-index: 9999;
+  margin-top: 1rem;
+}
+
+.line {
+  width: 1px;
+  height: 5rem;
+  background-color: lightgrey;
+}
+
+.circle {
+  width: 75px;
+  height: 75px;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Gallery */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+
+.gallery__img {
+  width: 140px;
+  margin-top: 1.5rem;
+  border-radius: 25px;
+}
+
+/*  Built For Modern Use Section  */
+
+.bfmu {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.bfmu__header {
+  font-size: 2.25rem;
+  margin-top: 2.25rem;
+}
+
+.bfmu__text {
+  color: rgb(112, 112, 112);
+  margin: 2rem 0 5rem 0;
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+}
+
+.bfmu > .bfmu__heading {
+  color: #0092ae;
+  font-size: 1.35rem;
+  margin-top: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/*  Navigation Markers  */
+
+.circle-one,
+.circle-two {
+  color: rgb(112, 112, 112);
+  font-size: 1.5rem;
+}
+
+.one {
+  height: 4.25rem;
+  font-size: 2.25rem;
+}
+
+/* Footer  */
+
+.footer {
+  color: whitesmoke;
+  height: 475px;
+  z-index: -1;
+  text-align: center;
+  margin-top: -2.5rem;
+}
+
+.footer__img {
+  height: inherit;
+  background: #0092ae url(../assets/mobile/image-footer.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+.footer__img > button {
+  margin: 0 auto;
+  background-color: #9258b6;
+}
+
+.footer__heading {
+  margin: 5rem 0 1.5rem 0;
+  font-size: 2.5rem;
+}
+
+.footer__text {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  margin-bottom: 2rem;
+}
